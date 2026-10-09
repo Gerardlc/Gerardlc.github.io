@@ -15,10 +15,9 @@ Los archivos de esta carpeta van en la raíz del repositorio Gerardlc/Gerardlc.g
 
 Editar `leobaby/privacy.html`, conservar español e inglés y actualizar la fecha cuando cambie el texto. Comprobar el enlace público después del despliegue.
 
-## AdMob: pendiente del titular
+## AdMob
 
-Todavía no se incluye `app-ads.txt`, porque falta el fragmento real del editor que proporciona AdMob. No publicar IDs ficticios.
-Cuando el titular prepare la app en AdMob, copiar su fragmento exacto a `app-ads.txt` en la raíz de este repositorio. La dirección será https://gerardlc.github.io/app-ads.txt.
+`app-ads.txt` contiene el fragmento personalizado del editor `pub-1250751722073744`, copiado de AdMob el 9 de octubre de 2026. Debe conservarse en la raíz: https://gerardlc.github.io/app-ads.txt.
 Añadir https://gerardlc.github.io/ como web de desarrollador en la ficha de Google Play. La aprobación de AdMob se completa al vincular la ficha pública.
 
 No subir código Android, claves, almacenes de firma, contraseñas ni documentos internos a este repositorio público.
