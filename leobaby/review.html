@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LeoBaby — foreground service demonstration</title>
+  <style>body{max-width:1000px;margin:40px auto;padding:0 20px;font:18px/1.6 system-ui,sans-serif;color:#12233f;background:#f4f6fc}h1{line-height:1.2}video{width:100%;max-height:75vh;background:#07111f;border-radius:16px}section{margin:32px 0}a{color:#225ab8}small{display:block}</style>
+</head>
+<body>
+  <h1>LeoBaby: foreground service demonstration</h1>
+  <p>Package <code>com.leobaby</code>, version 0.1.1 (2). These screen recordings show the signed release on two Android emulators connected through the emulator Wi-Fi network. The camera image is the emulator's virtual camera; no people or personal recordings appear.</p>
+  <section>
+    <h2>Camera and microphone</h2>
+    <p>The user chooses Camera and starts it, grants camera, microphone and notification permissions, opens pairing, compares both device fingerprints and confirms the connection. Camera capture runs with the app visible and the display kept on. The user stops streaming from the app.</p>
+    <video controls preload="metadata" playsinline src="fgs-camera.mp4">Download the <a href="fgs-camera.mp4">camera demonstration</a>.</video>
+  </section>
+  <section>
+    <h2>Monitor: media playback</h2>
+    <p>The user connects to the authorized Camera and grants notification permission. The Monitor shows live video and active audio, continues its playback service when the user returns to Android Home, and displays an ongoing notification. Pressing Stop in that notification stops the Monitor service.</p>
+    <video controls preload="metadata" playsinline src="fgs-monitor.mp4">Download the <a href="fgs-monitor.mp4">monitor demonstration</a>.</video>
+  </section>
+  <small>Recorded on 9 October 2026. Screen recordings have no soundtrack. These are short service demonstrations, not physical-device or battery endurance tests.</small>
+  <p><a href="privacy.html">Privacy policy and contact</a></p>
+</body>
+</html>
